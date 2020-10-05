@@ -17,14 +17,14 @@ const styles = StyleSheet.create({
     gridItem:{
         flex:1,
         margin:15,
-        height:150
+        height:150,
     },
     container:{
         flex:1,
         alignItems:'flex-end',
         justifyContent:'flex-end',
         borderRadius:10,
-        elevation:10,
+        elevation:20,
         shadowColor:'black',
         shadowOpacity:0.26,
         shadowOffset:{width:0,height:2},

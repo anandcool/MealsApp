@@ -10,6 +10,7 @@ constructor(id,
     steps,
     isGultenFree,
     isVegan,
+    image,
     isVegetarian,
     isLactoseFree){
         this.id=id;
