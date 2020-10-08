@@ -4,6 +4,7 @@ import * as Font from 'expo-font'
 import { AppLoading } from 'expo'
 import { StyleSheet, Text, View } from 'react-native';
 import MealsNavigator from './navigation/MealsNavigator';
+import DrawerNavigator from './navigation/DrawerNavigator';
 
 // const fetchFonts = () =>{
 //  return  Font.loadAsync({
@@ -25,7 +26,7 @@ export default function App() {
   // }
 
   return (
-      <MealsNavigator/>
+      <DrawerNavigator/>
   );
 }
 

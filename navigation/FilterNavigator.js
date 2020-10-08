@@ -10,7 +10,7 @@ import FiltersScreen from '../screens/FiltersScreen';
 
 const Stack = createStackNavigator();
 
-const StackNavigator = props =>{
+const FilterNavigator = props =>{
     const screenstyles ={
         headerStyle: {
           backgroundColor: Color.primaryColor
@@ -22,10 +22,8 @@ const StackNavigator = props =>{
       }
 return (
       <Stack.Navigator initialRouteName="Categories" screenOptions={screenstyles}>
-        <Stack.Screen name="Categories" component={CategoriesScreen} options={{title:"Meals Categories"}}  />
-        <Stack.Screen name="CategoryMeals" component={CategoryMealsScreen} />
-        <Stack.Screen name="MealDetail" component={MealsDetailsScreen} />
+        <Stack.Screen name="Filter" component={FiltersScreen} />
       </Stack.Navigator>
 );
 }
-export default StackNavigator
+export default FilterNavigator
